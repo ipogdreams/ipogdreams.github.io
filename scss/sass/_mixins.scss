@@ -1,0 +1,101 @@
+
+/* 
+* Mixins
+-----------------------------------------------*/
+
+/* Border Radius */
+@mixin border-radius($radius: 5px) 
+{
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+/* Preserve 3D */
+@mixin preserve-3d($str: preserve-3d)
+{
+    -webkit-transform-style: $str;
+    -moz-transform-style: $str;
+    transform-style: $str;
+}
+
+/* Translate X & Y */
+@mixin translateXY($xVal: -50%, $yVal: -50%)
+{    
+    transform: translate($xVal, $yVal);
+    -ms-transform: translate($xVal, $yVal);
+    -moz-transform: translate($xVal, $yVal);    
+    -webkit-transform: translate($xVal, $yVal);
+}
+
+/* Translate X */
+@mixin translateX($val: -50%)
+{
+    transform: translateX($val);
+    -ms-transform: translateX($val);
+    -moz-transform: translateX($val);    
+    -webkit-transform: translateX($val);
+}
+
+/* Translate Y */
+@mixin translateY($val: -50%)
+{
+    transform: translateY($val);
+    -ms-transform: translateY($val);
+    -moz-transform: translateY($val);    
+    -webkit-transform: translateY($val);
+}
+
+/* Filter Blur */
+@mixin filter-blur($blur: 5px) 
+{
+    -webkit-filter: blur($blur);
+    -moz-filter: blur($blur);
+    -o-filter: blur($blur);
+    -ms-filter: blur($blur);
+    filter: blur($blur);
+}
+
+/* Background Gradients */
+@mixin gradient ($startColor: #cc0000, $endColor: #000000) 
+{
+    background-color: $startColor;
+    background: -webkit-gradient(linear, left top, left bottom, from($startColor), to($endColor));
+    background: -webkit-linear-gradient(top, $startColor, $endColor);
+    background: -moz-linear-gradient(top, $startColor, $endColor);
+    background: -ms-linear-gradient(top, $startColor, $endColor);
+    background: -o-linear-gradient(top, $startColor, $endColor);
+}
+
+/* Opacity */
+@mixin opacity($opacity) 
+{
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+/* Create Icon */
+
+@mixin createIco($width: 16px, $height: 16px, $imgUrl: '', $deg: 0deg) {
+    content: '';
+    display: block;
+    position: relative;
+    width: $width;
+    height: $height;
+    background: url($imgUrl) no-repeat center center;
+    background-size: contain;
+    transform: rotateZ($deg);
+}
+
+/* Display Fles */
+@mixin flexbox()
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
