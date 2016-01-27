@@ -1,0 +1,329 @@
+{
+    "files": [
+        {
+            "source": "js/common.js",
+            "type": "SCRIPT",
+            "size": 1.224,
+            "stopExecution": true
+        },
+        {
+            "source": "js/app.js",
+            "type": "SCRIPT",
+            "size": 9.997,
+            "stopExecution": true
+        },
+        {
+            "source": "js/functions.js",
+            "type": "SCRIPT",
+            "size": 12.88,
+            "stopExecution": true
+        },
+        {
+            "source": "js/test.js",
+            "type": "SCRIPT",
+            "size": 5.750,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/html5shiv.js",
+            "type": "SCRIPT",
+            "size": 2.359,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/gsap/TweenMax.min.js",
+            "type": "SCRIPT",
+            "size": 108.426,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/gsap/plugins/CSSPlugin.min.js",
+            "type": "SCRIPT",
+            "size": 39.114,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/gsap/plugins/ScrollToPlugin.min.js",
+            "type": "SCRIPT",
+            "size": 2.557,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/gsap/TweenMax.min.js",
+            "type": "SCRIPT",
+            "size": 108.426,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/html5loader/jquery.html5Loader.min.js",
+            "type": "SCRIPT",
+            "size": 6.666,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/jquery/jquery-latest.min.js",
+            "type": "SCRIPT",
+            "size": 95.786,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/mobile-events/jquery.mobile-events.min.js",
+            "type": "SCRIPT",
+            "size": 14.199,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/scrollmagic/minified/ScrollMagic.min.js",
+            "type": "SCRIPT",
+            "size": 17.293,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/scrollmagic/minified/plugins/animation.gsap.min.js",
+            "type": "SCRIPT",
+            "size": 108.426,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/scrollmagic/minified/plugins/debug.addIndicators.min.js",
+            "type": "SCRIPT",
+            "size": 108.426,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/scsrollbar/jquery.mCustomScrollbar.concat.min.js",
+            "type": "SCRIPT",
+            "size": 85.816,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/slick/slick.min.js",
+            "type": "SCRIPT",
+            "size": 40.416,
+            "stopExecution": true
+        },
+        {
+            "source": "libs/slick/slick.css",
+            "type": "CSS",
+            "size": 1.767,
+            "stopExecution": true
+        },
+        {
+            "source": "images/avathar.jpg",
+            "type": "IMAGE",
+            "size": 218.870
+        },
+        {
+            "source": "images/avathar_none.jpg",
+            "type": "IMAGE",
+            "size": 41.352
+        },
+        {
+            "source": "images/bg.jpg",
+            "type": "IMAGE",
+            "size": 16.240
+        },
+        {
+            "source": "images/bg-clouds.png",
+            "type": "IMAGE",
+            "size": 29.227
+        },
+        {
+            "source": "images/bg-content.png",
+            "type": "IMAGE",
+            "size": 52.448
+        },
+        {
+            "source": "images/big.jpg",
+            "type": "IMAGE",
+            "size": 12.142872
+        },
+        {
+            "source": "images/dummy-portfolio.png",
+            "type": "IMAGE",
+            "size": 2.560
+        },
+        {
+            "source": "images/grid.png",
+            "type": "IMAGE",
+            "size": 1.323
+        },
+        {
+            "source": "images/heart.svg",
+            "type": "IMAGE",
+            "size": 218.870
+        },
+        {
+            "source": "images/skill-chart.png",
+            "type": "IMAGE",
+            "size": 60.312
+        },
+        
+        
+        {
+            "source": "images/logos/angular-js.png",
+            "type": "IMAGE",
+            "size": 18.262
+        },
+        {
+            "source": "images/logos/animation.png",
+            "type": "IMAGE",
+            "size": 433
+        },
+        {
+            "source": "images/logos/css3.png",
+            "type": "IMAGE",
+            "size": 3.988
+        },
+        {
+            "source": "images/logos/fw.png",
+            "type": "IMAGE",
+            "size": 4.884
+        },
+        {
+            "source": "images/logos/html5.png",
+            "type": "IMAGE",
+            "size": 3.707
+        },
+        {
+            "source": "images/logos/illustrator.jpg",
+            "type": "IMAGE",
+            "size": 6.9932
+        },
+        {
+            "source": "images/logos/ionic.png",
+            "type": "IMAGE",
+            "size": 11.022
+        },
+        {
+            "source": "images/logos/jquery.png",
+            "type": "IMAGE",
+            "size": 1.330
+        },
+        {
+            "source": "images/logos/js.png",
+            "type": "IMAGE",
+            "size": 2.499
+        },
+        {
+            "source": "images/logos/performance.png",
+            "type": "IMAGE",
+            "size": 259
+        },
+        {
+            "source": "images/logos/ps.png",
+            "type": "IMAGE",
+            "size": 6.218
+        },
+        {
+            "source": "images/logos/sketch.jpg",
+            "type": "IMAGE",
+            "size": 8.103
+        },
+        
+        
+        
+        {
+            "source": "images/illustration/responsive/responsive-ui.png",
+            "type": "IMAGE",
+            "size": 32.322
+        },
+        
+        
+        
+        {
+            "source": "images/illustration/singapore/cloud-1.png",
+            "type": "IMAGE",
+            "size": 15.741
+        },
+        {
+            "source": "images/illustration/singapore/cloud-2.png",
+            "type": "IMAGE",
+            "size": 15.484
+        },
+        {
+            "source": "images/illustration/singapore/cloud-3.png",
+            "type": "IMAGE",
+            "size": 1.328
+        },
+        {
+            "source": "images/illustration/singapore/set_1_buildings.png",
+            "type": "IMAGE",
+            "size": 2.058
+        },
+        {
+            "source": "images/illustration/singapore/set_2_buildings.png",
+            "type": "IMAGE",
+            "size": 1.955
+        },
+        {
+            "source": "images/illustration/singapore/ship_building.png",
+            "type": "IMAGE",
+            "size": 2.288
+        },
+        {
+            "source": "images/illustration/singapore/singapore_base.png",
+            "type": "IMAGE",
+            "size": 6.674
+        },
+        
+        
+        
+        {
+            "source": "images/illustration/india/city-shape.png",
+            "type": "IMAGE",
+            "size": 5.308
+        },
+        {
+            "source": "images/illustration/india/cloud-1.png",
+            "type": "IMAGE",
+            "size": 2.621
+        },
+        {
+            "source": "images/illustration/india/cloud-2.png",
+            "type": "IMAGE",
+            "size": 1.883
+        },
+        {
+            "source": "images/illustration/india/cloud-3.png",
+            "type": "IMAGE",
+            "size": 1.354
+        },
+        {
+            "source": "images/illustration/india/tajmahal-main.png",
+            "type": "IMAGE",
+            "size": 11.016
+        },
+        {
+            "source": "images/illustration/india/tajmahal-side-1.png",
+            "type": "IMAGE",
+            "size": 3.284
+        },
+        {
+            "source": "images/illustration/india/tajmahal-side-2.png",
+            "type": "IMAGE",
+            "size": 2.597
+        },
+        
+        
+        
+        {
+            "source": "images/portfolio/001.jpg",
+            "type": "IMAGE",
+            "size": 281.451
+        },
+        {
+            "source": "images/portfolio/003.jpg",
+            "type": "IMAGE",
+            "size": 429.079
+        },
+        {
+            "source": "images/portfolio/007.jpg",
+            "type": "IMAGE",
+            "size": 463.233
+        }
+        
+
+    ]
+
+}
