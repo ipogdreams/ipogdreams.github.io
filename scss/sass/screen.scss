@@ -191,7 +191,20 @@ body.mobile
     width: 800px;
     margin: 0 auto;
     border-bottom: 1px solid #fff !important;
-
+    
+    /* Main Bg Image */
+    min-width: 990px;
+    min-height: 665px; /* 800px; */
+    background-image: url("../images/tajmahal-main.jpg");
+    background-position: 50% 0px;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: background-position;
+    
     .grids 
     {
         position: absolute;
@@ -200,7 +213,7 @@ body.mobile
 
         background-image: url('../images/grid.png');
         background-repeat: repeat-x repeat-y;
-        opacity: .55;
+        opacity: .2; /* .55 */
         z-index: 0;
     }
 
@@ -282,6 +295,7 @@ body.mobile
         font-size: 42px;
         font-weight: 400;
         line-height: 50px;
+        color: #fff;
 
         span {
             font-weight: 700;
@@ -293,10 +307,12 @@ body.mobile
         font-size: 32px;
         font-weight: 300;
         line-height: 40px;
+        color: #fff;
     }
 
     h3 {
         font-size: 18px;
+        color: #fff;
     }
     p { 
         font-size: 18px; 
@@ -306,9 +322,9 @@ body.mobile
     hr { 
         border: 0; 
         height: 1px; 
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), 
-            rgba(0, 0, 0, 0.75), 
-            rgba(0, 0, 0, 0)); 
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), 
+            rgba(255, 255, 255, 0.75), 
+            rgba(255, 255, 255, 0)); 
         margin: 5px;
     }
 
@@ -316,8 +332,8 @@ body.mobile
         font-size: 34px;
         font-weight: 300;
         margin-top: 15px;
-        color: #333;
-
+        color: #fff;
+        
         span { font-weight: 700; }
     }
 }

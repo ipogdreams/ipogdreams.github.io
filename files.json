@@ -114,6 +114,13 @@
             "size": 1.767,
             "stopExecution": true
         },
+        
+        
+        {
+            "source": "images/tajmahal-main.jpg",
+            "type": "IMAGE",
+            "size": 417.582
+        },
         {
             "source": "images/avathar.jpg",
             "type": "IMAGE",
