@@ -31,6 +31,12 @@
             "stopExecution": true
         },
         {
+            "source": "libs/device.min.js",
+            "type": "SCRIPT",
+            "size": 3.295,
+            "stopExecution": false
+        },
+        {
             "source": "libs/gsap/TweenMax.min.js",
             "type": "SCRIPT",
             "size": 108.426,

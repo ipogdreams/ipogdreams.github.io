@@ -1,33 +1,16 @@
-function createStarField() {
-    console.log('createStarField');
-
-    var w = $("#preload").width(),
-            h = $("#preload").height(),
-            starsCount = 1000;
-
-    for (i = 0; i < starsCount; i++)
-    {
-        var size = randomIntBetween(1, 15),
-                x = Math.min(randomIntBetween(1, w), w - size - 5),
-                y = Math.min(randomIntBetween(1, h), h - size - 5),
-                elem = $("<div class='star'></div>");
-
-        elem.css({"top": y, "left": x, "width": size, "height": size});
-        elem.addClass("s" + randomIntBetween(1, starsCount));
-        $(".stars").append(elem);
-    }
-
-}
-
-function randomIntBetween(a, b) {
-    return Math.floor(Math.random() * (b - a + 1) + a);
-}
-
 var isLandingAnimated = false;
-function startLandingScene() {
+var isAppLoaded = false;
+
+function showUnderProgress() {
+    $("body").addClass("mobile"),
+            $mouseEventHover = $mouseEventClick = "tap",
+            $date = new Date,
+            $("body").html(""),
+            $('<div class="underProgress"><p>Mobile version is under construction, kindly view the website in desktop or tablet device. Thank you!</p><img src="./images/logo.png" alt="Ipog Dreams - http://www.ipogdreams.com"></div>').prependTo("body");
+}
+
+function startLandingAnimation() {
     console.log('App Loaded.. Starting Landing Animation..');
-
-
 
     var sc00_clouds = $("#clouds"),
             sc01_avathar = $("#sc01_avathar"),
@@ -36,13 +19,11 @@ function startLandingScene() {
             sc01_position = $("#sc01_position"),
             sc01_hr = $("#sc01_hr"),
             sc01_desc = $("#sc01_desc"),
-            sc01_mountain = $("#sc01_mountain")
-            ;
+            sc01_mountain = $("#sc01_mountain");
 
     /* 1. Falling Animating */
 
-
-    if (!isLandingAnimated) {
+    if (isAppLoaded && !isLandingAnimated) {
 
         var fa = new TimelineMax();
 
@@ -69,7 +50,7 @@ function startLandingScene() {
         // Start Cloud Animation
         // Offset for clouds and cities
         var offset = 0;
-        
+
         setTimeout(function () {
             window.setInterval(function () {
                 $("#clouds").attr("style", "background-position: " + offset + "px 0px");
@@ -79,7 +60,7 @@ function startLandingScene() {
 
         isLandingAnimated = true;
     }
-    
+
     console.log('startLandingScene -> END');
 }
 
@@ -125,7 +106,6 @@ function detectDevicesandScreens() {
         return 1600 < $(window).width() ? !0 : !1;
     };
 }
-;
 
 function setViewHeight() {
     var vh = $(window).height();
@@ -260,4 +240,28 @@ function animate_illustration(id, state) {
                 })
             }, 1E3)
     }
+}
+
+function createStarField() {
+    console.log('createStarField');
+
+    var w = $("#preload").width(),
+            h = $("#preload").height(),
+            starsCount = 1000;
+
+    for (i = 0; i < starsCount; i++)
+    {
+        var size = randomIntBetween(1, 15),
+                x = Math.min(randomIntBetween(1, w), w - size - 5),
+                y = Math.min(randomIntBetween(1, h), h - size - 5),
+                elem = $("<div class='star'></div>");
+
+        elem.css({"top": y, "left": x, "width": size, "height": size});
+        elem.addClass("s" + randomIntBetween(1, starsCount));
+        $(".stars").append(elem);
+    }
+}
+
+function randomIntBetween(a, b) {
+    return Math.floor(Math.random() * (b - a + 1) + a);
 }
