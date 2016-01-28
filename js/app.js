@@ -22,9 +22,9 @@
             
             isAppLoaded = true;
             /* Temprowary.. need to remove this */
-            $("#preload").remove();
-            $("#wrapper").css('opacity', '1')
-                    .css('filter', 'alpha(opacity=1)');
+            // $("#preload").remove();
+            // $("#wrapper").css('opacity', '1')
+            //        .css('filter', 'alpha(opacity=1)');
         },
         onUpdate: function (b) {
             // log("$.html5Loader ==> onUpdate: " + b, 'h');
