@@ -1,6 +1,12 @@
 {
     "files": [
         {
+            "source": "libs/device.min.js",
+            "type": "SCRIPT",
+            "size": 3.295,
+            "stopExecution": false
+        },
+        {
             "source": "js/common.js",
             "type": "SCRIPT",
             "size": 1.224,
@@ -29,12 +35,6 @@
             "type": "SCRIPT",
             "size": 2.359,
             "stopExecution": true
-        },
-        {
-            "source": "libs/device.min.js",
-            "type": "SCRIPT",
-            "size": 3.295,
-            "stopExecution": false
         },
         {
             "source": "libs/gsap/TweenMax.min.js",
@@ -138,11 +138,6 @@
             "source": "images/bg-content.png",
             "type": "IMAGE",
             "size": 52.448
-        },
-        {
-            "source": "images/big.jpg",
-            "type": "IMAGE",
-            "size": 12.142872
         },
         {
             "source": "images/dummy-portfolio.png",

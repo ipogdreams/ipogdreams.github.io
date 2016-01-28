@@ -53,7 +53,7 @@ function startLandingAnimation() {
 
         setTimeout(function () {
             window.setInterval(function () {
-                $("#clouds").attr("style", "background-position: " + offset + "px 0px");
+                // $("#clouds").attr("style", "background-position: " + offset + "px 0px");
                 offset -= 1;
             }, 30);
         }, 3500);

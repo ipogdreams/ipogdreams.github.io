@@ -121,7 +121,7 @@
     }
     .countdown 
     {
-        font-size: 15px;
+        font-size: 14px;
         color: #ffffff;
         font-weight: 300;
         letter-spacing: 0.05em;
@@ -200,7 +200,7 @@ body.mobile
 
         background-image: url('../images/grid.png');
         background-repeat: repeat-x repeat-y;
-        opacity: .15;
+        opacity: .55;
         z-index: 0;
     }
 
@@ -824,7 +824,10 @@ footer
         min-height: 350px;
         left: 50%;
         margin-left: -295px;
-
+        
+        @include scale(0.75);
+        bottom: -44px;
+        
         .cloud-1 {
             width: 141px;
             height: 82px;
@@ -902,7 +905,10 @@ footer
         left: 50%;
         margin-left: -375px;
         bottom: -5px !important;
-
+        
+        @include scale(0.8);
+        bottom: -20px !important;
+        
         .cloud-1 {
             width: 90px;
             height: 52px;

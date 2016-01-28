@@ -21,11 +21,10 @@
             log("$.html5Loader ==> onComplete", 'h');
             
             isAppLoaded = true;
-            // alert("onComplete "+ isAppLoaded );
             /* Temprowary.. need to remove this */
-            // $("#preload").remove();
-            // $("#wrapper").css('opacity', '1')
-            //        .css('filter', 'alpha(opacity=1)');
+            $("#preload").remove();
+            $("#wrapper").css('opacity', '1')
+                    .css('filter', 'alpha(opacity=1)');
         },
         onUpdate: function (b) {
             // log("$.html5Loader ==> onUpdate: " + b, 'h');

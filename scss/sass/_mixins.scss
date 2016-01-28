@@ -99,3 +99,11 @@
     display: -ms-flexbox;
     display: flex;
 }
+
+/* Scale To */
+@mixin scale($scaleTo: 1 ) 
+{
+    -webkit-transform: scale($scaleTo); 
+    -ms-transform: scale($scaleTo); 
+    transform: scale($scaleTo); 
+}
