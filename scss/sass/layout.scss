@@ -1,6 +1,28 @@
 /* 
 * BEGIN: Base Laayout Styles
 -----------------------------------------------*/
+
+.main-picture 
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-width: 990px;
+    min-height: 665px; /* 800px; */
+    
+    background-image: url("../images/tajmahal-main.jpg");
+    background-position: 50% 0px;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: background-position;
+    
+    z-index: 0;
+}
+
 .main  {
     display: block;
     width: 100%;
