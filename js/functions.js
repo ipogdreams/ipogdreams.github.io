@@ -11,6 +11,8 @@ function showUnderProgress() {
 
 function startLandingAnimation() {
     console.log('App Loaded.. Starting Landing Animation..');
+    $("#wrapper").css('opacity', '1')
+            .css('filter', 'alpha(opacity=1)');
 
     var sc00_clouds = $("#clouds"),
             sc01_avathar = $("#sc01_avathar"),
@@ -53,7 +55,7 @@ function startLandingAnimation() {
 
         setTimeout(function () {
             window.setInterval(function () {
-                // $("#clouds").attr("style", "background-position: " + offset + "px 0px");
+                $("#clouds").attr("style", "background-position: " + offset + "px 0px");
                 offset -= 1;
             }, 30);
         }, 3500);

@@ -45,9 +45,7 @@
                             console.log("Loading animation complete..");
 
                             $("#preload").remove();
-                            $("#wrapper").css('opacity', '1')
-                                    .css('filter', 'alpha(opacity=1)');
-
+                            
                             startLandingAnimation();
                         });
                     });
