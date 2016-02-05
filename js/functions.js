@@ -6,7 +6,7 @@ function showUnderProgress() {
             $mouseEventHover = $mouseEventClick = "tap",
             $date = new Date,
             $("body").html(""),
-            $('<div class="underProgress"><p>Mobile version is under construction, kindly view the website in desktop or tablet device. Thank you!</p><img src="./images/logo.png" alt="Ipog Dreams - http://www.ipogdreams.com"></div>').prependTo("body");
+            $('<div class="under-progress"><div class="gradient"></div><div class="content"><img src="./images/logo.png" alt="Ipog Dreams - http://www.ipogdreams.com" /><p>Mobile version is under construction, kindly view the website in desktop or tablet device. Thank you!</p></div></div>').prependTo("body");
 }
 
 function startLandingAnimation() {
