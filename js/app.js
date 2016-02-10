@@ -10,7 +10,7 @@
             $("#preload > .stroke").delay(800).queue(function () {
                 $(this).addClass("on").dequeue();
             });
-            $("#preload > img").delay(1200).queue(function () {
+            $("#preload > .logo-holder").delay(1200).queue(function () {
                 $(this).addClass("on").dequeue();
             });
             $("#preload > .countdown").delay(1400).queue(function () {
@@ -37,10 +37,10 @@
                 100 === b && ($endTransition, setTimeout(function () {
                     $(window).scrollTop(0);
                 }, 200),
-                        $("#preload > img").removeClass("on").on($endTransition, function () {
-                    $("#preload > .countdown").removeClass("on");
-                    $("#preload > .stroke").addClass("on_full").on($endTransition, function () {
-                        $(this).addClass("on_hide");
+                        $("#preload > .logo-holder").removeClass("on").on($endTransition, function () {
+                            $("#preload > .countdown").removeClass("on");
+                            $("#preload > .stroke").addClass("on_full").on($endTransition, function () {
+                            $(this).addClass("on_hide");
                         $(".upper, .lower").addClass("on").on($endTransition, function () {
                             console.log("Loading animation complete..");
 

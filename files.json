@@ -115,31 +115,20 @@
             "stopExecution": true
         },
         
-        
-        {
-            "source": "images/tajmahal-main.jpg",
-            "type": "IMAGE",
-            "size": 417.582
-        },
         {
             "source": "images/avathar.jpg",
             "type": "IMAGE",
             "size": 218.870
         },
         {
-            "source": "images/avathar_none.jpg",
+            "source": "images/bg.png",
             "type": "IMAGE",
-            "size": 41.352
-        },
-        {
-            "source": "images/bg.jpg",
-            "type": "IMAGE",
-            "size": 16.240
+            "size": 5.189
         },
         {
             "source": "images/bg-clouds.png",
             "type": "IMAGE",
-            "size": 29.227
+            "size": 15.684
         },
         {
             "source": "images/bg-content.png",
@@ -147,24 +136,65 @@
             "size": 52.448
         },
         {
-            "source": "images/dummy-portfolio.png",
-            "type": "IMAGE",
-            "size": 2.560
-        },
-        {
             "source": "images/grid.png",
             "type": "IMAGE",
             "size": 1.323
         },
         {
-            "source": "images/heart.svg",
+            "source": "images/logo.png",
             "type": "IMAGE",
-            "size": 218.870
+            "size": 7.808
         },
         {
             "source": "images/skill-chart.png",
             "type": "IMAGE",
             "size": 60.312
+        },
+        {
+            "source": "images/title-underline.png",
+            "type": "IMAGE",
+            "size": 523
+        },
+        
+        {
+            "source": "images/portfolio/clienteling.jpg",
+            "type": "IMAGE",
+            "size": 67.582
+        },
+        {
+            "source": "images/portfolio/ebs.jpg",
+            "type": "IMAGE",
+            "size": 98.720
+        },
+        {
+            "source": "images/portfolio/intelli-suite.jpg",
+            "type": "IMAGE",
+            "size": 127.030
+        },
+        {
+            "source": "images/portfolio/jp1-hitachi.jpg",
+            "type": "IMAGE",
+            "size": 164.511
+        },
+        {
+            "source": "images/portfolio/logo-samples.jpg",
+            "type": "IMAGE",
+            "size": 160.503
+        },
+        {
+            "source": "images/portfolio/mymoney.jpg",
+            "type": "IMAGE",
+            "size": 163.472
+        },
+        {
+            "source": "images/portfolio/scb-breeze.jpg",
+            "type": "IMAGE",
+            "size": 166.594
+        },
+        {
+            "source": "images/portfolio/scb-nbc.jpg",
+            "type": "IMAGE",
+            "size": 177.116
         },
         
         
