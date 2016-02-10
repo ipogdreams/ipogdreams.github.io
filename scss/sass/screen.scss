@@ -625,7 +625,8 @@ body.mobile
     }
 
     .skill-icons {
-
+        @include scale(.7);
+        
         position: absolute;
 
         width: 100%;
