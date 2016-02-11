@@ -2,6 +2,30 @@
 * Preload Screen Styles
 -----------------------------------------------*/
 
+#eyeBall 
+{
+    animation: eye-blink 2.4s infinite;
+}
+#eyeLid {
+    animation: eye-squeeze 2.4s infinite;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    background-color: #4a9bda;
+    webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
 .preloader 
 {
     width: 100%;
@@ -131,32 +155,9 @@
         -o-transition: all 1200ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
         transition: all 1200ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
 
-        #eyeBall {
-            animation: eye-blink 2.4s infinite;
-        }
-        #eyeLid {
-            animation: eye-squeeze 2.4s infinite;
-        }
-
         img {
             width: 80px;
             height: 80px;
-        }
-
-        .eye {
-            width: 30px;
-            height: 30px;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-
-            background-color: #4a9bda;
-            webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            border-radius: 50%;
         }
 
         &.on {
@@ -197,7 +198,9 @@ body.mobile
 {
     background-color: $c-loading-bg;
     background-image: none;
-
+    
+    overflow: hidden;
+    
     .under-progress 
     {
         position: absolute;
