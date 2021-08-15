@@ -177,7 +177,7 @@
     controller.addScene([scene01, scene02, scene03, scene04, scene05, scene06, scene07]);
 
     // Add debug indicators fixed on right side
-    /*
+
     scene01.addIndicators({name: "Fade", colorEnd: "#cc0000"});
     scene02.addIndicators({name: "Home", colorEnd: "#cc0000"});
     scene03.addIndicators({name: "About", colorEnd: "#cc0000"});
@@ -185,7 +185,7 @@
     scene05.addIndicators({name: "Portfolio", colorEnd: "#cc0000"});
     scene06.addIndicators({name: "Contact", colorEnd: "#cc0000"});
     scene07.addIndicators({name: "Footer", colorEnd: "#cc0000"});
-    */
+
 
     $('.carousel').slick({
         dots: false,
